@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className="w-full flex flex-row items-center justify-end">
-          <Link target="_blank" href="https://t.me/">
+          <Link target="_blank" href="https://t.me/brogieonbase">
             <Image
               src="/telegram.svg"
               alt="tele"
@@ -33,7 +33,7 @@ export default function Home() {
               className="w-[30px] md:w-[50px]"
             />
           </Link>
-          <Link target="_blank" href="https://x.com/">
+          <Link target="_blank" href="https://x.com/brogieonbase?s=21">
             <Image
               src="/x.svg"
               alt="x"
@@ -42,7 +42,7 @@ export default function Home() {
               className="w-[32px] md:w-[50px]"
             />
           </Link>
-          <Link target="_blank" href="https://solana.com/">
+          <Link target="_blank" href="#">
             <Image
               src="/buy.svg"
               alt="buy"
@@ -185,7 +185,7 @@ export default function Home() {
               className="object-contain w-[174px] h-[35px]"
             />
           </Link>
-          <Link href="">
+          <Link target="_blank" href="https://t.me/brogieonbase">
             <Image
               src="/telegram.svg"
               alt="telegram"
@@ -194,8 +194,7 @@ export default function Home() {
               className="object-contain w-[80px] md:w-[154px]"
             />
           </Link>
-          <Link href="">
-            {" "}
+          <Link target="_blank" href="https://x.com/brogieonbase?s=21">
             <Image
               src="/x.svg"
               alt="x"
