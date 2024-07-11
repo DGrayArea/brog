@@ -88,7 +88,7 @@ export default function Home() {
           alt="path"
           width={80}
           height={80}
-          className="absolute w-[180px] h-[274px] object-contain md:h-[350px] md:w-[350px] lg:w-[500px] lg:h-[600px] top-[18%] left-[28%] md:left-[30%]"
+          className="absolute w-[180px] h-[274px] object-contain md:h-[350px] md:w-[350px] lg:w-[500px] lg:h-[700px] top-[18%] left-[28%] lg:left-[35%] md:left-[30%]"
         />
       </div>
 
@@ -108,7 +108,7 @@ export default function Home() {
           alt="ball"
           width={80}
           height={80}
-          className="object-fit w-[150px] absolute -top-[70px] -left-[40px] lg:top-[0px] lg:w-[300px] lg:-left-[55px]"
+          className="object-fit w-[150px] absolute -top-[70px] -left-[40px] lg:top-[0px] lg:w-[400px] lg:-left-[55px]"
         />
         <Image
           src="/bg.png"
@@ -122,10 +122,10 @@ export default function Home() {
           alt="lookup"
           width={80}
           height={80}
-          className="object-fit w-[130px] absolute -bottom-[30px] -right-[0px] lg:w-[300px]"
+          className="object-fit w-[130px] absolute -bottom-[30px] -right-[0px] lg:w-[400px]"
         />
       </div>
-      <div className="w-full justify-center items-center flex my-8">
+      <div className="w-full justify-center items-center flex my-8 lg:mt-40">
         <Image
           src="/howto.png"
           alt="path"
@@ -134,7 +134,7 @@ export default function Home() {
           className="object-contain w-[55%] h-[35px] md:h-[63px]"
         />
       </div>
-      <div className="w-full justify-center items-center flex-row mt-4 grid grid-cols-2 lg:grid-cols-4 mx-auto">
+      <div className="w-full justify-center items-center flex-row mt-4 grid grid-cols-2 lg:grid-cols-4 mx-auto lg:mt-40">
         <Image
           src="/clip1.png"
           alt="path"
