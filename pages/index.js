@@ -18,7 +18,7 @@ export default function Home() {
               alt="logo"
               width={80}
               height={80}
-              className="w-[70px] md:w-[100px]"
+              className="w-[70px] lg:w-[100px]"
             />
           </Link>
         </div>
@@ -30,7 +30,7 @@ export default function Home() {
               alt="tele"
               width={80}
               height={80}
-              className="w-[30px] md:w-[50px]"
+              className="w-[30px] lg:w-[50px]"
             />
           </Link>
           <Link target="_blank" href="https://x.com/brogieonbase?s=21">
@@ -39,7 +39,7 @@ export default function Home() {
               alt="x"
               width={80}
               height={80}
-              className="w-[32px] md:w-[50px]"
+              className="w-[32px] lg:w-[50px]"
             />
           </Link>
           <Link target="_blank" href="#">
@@ -48,7 +48,7 @@ export default function Home() {
               alt="buy"
               width={80}
               height={80}
-              className="w-[42px] md:w-[70px]"
+              className="w-[42px] lg:w-[70px]"
             />
           </Link>
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
             alt="path"
             width={80}
             height={80}
-            className="w-[615px] md:w-[550px]"
+            className="w-[615px] lg:w-[550px]"
           />
         </div>
         <div className="w-full">
@@ -70,7 +70,7 @@ export default function Home() {
             alt="frog"
             width={80}
             height={80}
-            className="w-[600px] md:w-[550px]"
+            className="w-[600px] lg:w-[550px]"
           />
         </div>
       </div>
@@ -81,98 +81,98 @@ export default function Home() {
           alt="path"
           width={80}
           height={80}
-          className="w-full h-[360px] md:h-[50%]"
+          className="w-full h-[360px] lg:h-[50%] md:h-[500px]"
         />
         <Image
           src="/cup.svg"
           alt="path"
           width={80}
           height={80}
-          className="absolute w-[180px] h-[274px] object-contain md:w-[800px] md:h-[full] top-[18%] left-[28%]"
+          className="absolute w-[180px] h-[274px] object-contain md:h-[350px] md:w-[350px] lg:w-[500px] lg:h-[600px] top-[18%] left-[28%] md:left-[30%]"
         />
       </div>
 
-      <div className="w-full justify-center items-center flex mt-3">
+      <div className="w-full justify-center items-center flex my-8">
         <Image
           src="/tokenomics.png"
           alt="path"
           width={80}
           height={80}
-          className="object-contain w-[55%] h-[63px]"
+          className="object-contain w-[55%] h-[35px] md:h-[63px]"
         />
       </div>
 
       <div className="relative w-full justify-center items-center flex mt-2">
         <Image
-          src="/ball.png"
+          src="/file3.png"
           alt="ball"
           width={80}
           height={80}
-          className="object-fit w-[150px] absolute -top-[70px] -left-[40px]"
+          className="object-fit w-[150px] absolute -top-[70px] -left-[40px] lg:top-[0px] lg:w-[300px] lg:-left-[55px]"
         />
         <Image
           src="/bg.png"
           alt="path"
           width={80}
           height={80}
-          className="object-fit w-[85%] h-[200px]"
+          className="object-fit w-[85%] h-[fit] lg:h-fit"
         />
         <Image
           src="/lookup.png"
           alt="lookup"
           width={80}
           height={80}
-          className="object-fit w-[130px] absolute -bottom-[30px] -right-[0px]"
+          className="object-fit w-[130px] absolute -bottom-[30px] -right-[0px] lg:w-[300px]"
         />
       </div>
-      <div className="w-full justify-center items-center flex mt-8">
+      <div className="w-full justify-center items-center flex my-8">
         <Image
           src="/howto.png"
           alt="path"
           width={80}
           height={80}
-          className="object-contain w-[55%] h-[35px]"
+          className="object-contain w-[55%] h-[35px] md:h-[63px]"
         />
       </div>
-      <div className="w-full justify-center items-center flex-row mt-4 grid grid-cols-2 md:grid-cols-4 mx-auto">
+      <div className="w-full justify-center items-center flex-row mt-4 grid grid-cols-2 lg:grid-cols-4 mx-auto">
         <Image
           src="/clip1.png"
           alt="path"
           width={80}
           height={80}
-          className="object-contain w-full h-[248px]"
+          className="object-contain w-full h-[248px] lg:h-[350px]"
         />
         <Image
           src="/clip2.png"
           alt="path"
           width={80}
           height={80}
-          className="object-contain w-full h-[248px]"
+          className="object-contain w-full h-[248px] lg:h-[350px]"
         />
         <Image
           src="/clip3.png"
           alt="path"
           width={80}
           height={80}
-          className="object-contain w-full h-[248px]"
+          className="object-contain w-full h-[248px] lg:h-[350px]"
         />
         <Image
           src="/clip4.png"
           alt="path"
           width={80}
           height={80}
-          className="object-contain w-full h-[248px]"
+          className="object-contain w-full h-[248px] lg:h-[350px]"
         />
       </div>
 
-      <div className="w-full justify-center flex-col md:flex-row space-y-8 md:space-x-4">
+      <div className="w-full flex justify-center flex-col lg:flex-row lg:justify-around space-y-8 lg:space-x-4 my-4 lg:mt-20">
         <div>
           <Image
             src="/read.png"
             alt="path"
             width={80}
             height={80}
-            className="object-contain w-full h-[228px]"
+            className="object-contain w-full h-[228px]  lg:h-[300px]"
           />
         </div>
         <div className="flex flex-col items-center space-y-5">
@@ -191,7 +191,7 @@ export default function Home() {
               alt="telegram"
               width={80}
               height={80}
-              className="object-contain w-[80px] md:w-[154px]"
+              className="object-contain w-[80px] lg:w-[154px]"
             />
           </Link>
           <Link target="_blank" href="https://x.com/brogieonbase?s=21">
@@ -200,7 +200,7 @@ export default function Home() {
               alt="x"
               width={80}
               height={80}
-              className="object-contain w-[80px] md:w-[137px]"
+              className="object-contain w-[80px] lg:w-[137px]"
             />
           </Link>
         </div>
