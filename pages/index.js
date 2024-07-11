@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <div className="w-full">
           <Image
-            src="/file1.png"
+            src="/file7.png"
             alt="frog"
             width={80}
             height={80}
