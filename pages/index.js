@@ -15,7 +15,7 @@ export default function Home() {
         <div className="w-full">
           <Link href="/">
             <Image
-              src="/logo.svg"
+              src="/file (1).png"
               alt="logo"
               width={80}
               height={80}
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="w-full flex flex-row items-center justify-end">
           <Link target="_blank" href="https://t.me/brogieonbase">
             <Image
-              src="/telegram.svg"
+              src="/file (4).png"
               alt="tele"
               width={80}
               height={80}
@@ -36,7 +36,7 @@ export default function Home() {
           </Link>
           <Link target="_blank" href="https://x.com/brogieonbase?s=21">
             <Image
-              src="/x.svg"
+              src="/file (5).png"
               alt="x"
               width={80}
               height={80}
@@ -45,7 +45,7 @@ export default function Home() {
           </Link>
           <Link target="_blank" href="#">
             <Image
-              src="/buy.svg"
+              src="/file (3).png"
               alt="buy"
               width={80}
               height={80}
@@ -191,7 +191,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="w-full pt-10">
         <ResponsiveImage
           src="/art background.png"
           alt="water"
