@@ -172,7 +172,7 @@ export default function Home() {
           </Link>
           <Link target="_blank" href="https://t.me/brogieonbase">
             <Image
-              src="/telegram.svg"
+              src="/file (4).png"
               alt="telegram"
               width={80}
               height={80}
@@ -181,7 +181,7 @@ export default function Home() {
           </Link>
           <Link target="_blank" href="https://x.com/brogieonbase?s=21">
             <Image
-              src="/x.svg"
+              src="/file (5).png"
               alt="x"
               width={80}
               height={80}
