@@ -1,13 +1,14 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import ResponsiveImage from "@/components/ResponsiveImage";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main
-      style={{ backgroundImage: "url('/background.png')" }}
+      style={{ backgroundImage: "url('/bg_1.png')" }}
       className={`flex min-h-screen flex-col items-center bg-cover bg-center ${inter.className}`}
     >
       <div className="w-full justify-between items-center mt-1 p-2 flex flex-row">
@@ -54,136 +55,120 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-between w-full mt-2">
+      <div className="flex flex-row justify-between w-full mt-10">
         <div className="w-full">
-          <Image
-            src="/brogpath.png"
-            alt="path"
-            width={80}
-            height={80}
-            className="w-[615px] lg:w-[550px]"
+          <ResponsiveImage
+            src="/big logo rainbow.png"
+            alt="Rainbow Logo"
+            width={1920}
+            height={1080}
+            className="w-[215px] lg:w-[250px] aspect-auto"
           />
         </div>
         <div className="w-full">
-          <Image
+          <ResponsiveImage
             src="/file7.png"
             alt="frog"
-            width={80}
-            height={80}
-            className="w-[600px] lg:w-[550px]"
+            width={1620}
+            height={780}
+            className="w-[150px] lg:w-[180px] aspect-auto"
           />
         </div>
       </div>
 
       <div className="w-full relative">
-        <Image
+        <ResponsiveImage
           src="/leaf.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="w-full h-[360px] lg:h-[50%] md:h-[500px]"
+          alt="leaf"
+          width={1620}
+          height={780}
+          className="w-[150px] lg:w-[180px] aspect-auto"
         />
-        <Image
-          src="/cup.svg"
-          alt="path"
-          width={80}
-          height={80}
-          className="absolute w-[180px] h-[274px] object-contain md:h-[350px] md:w-[350px] lg:w-[500px] lg:h-[700px] top-[18%] left-[28%] lg:left-[35%] md:left-[30%]"
+        <ResponsiveImage
+          src="/art assets page 2.png"
+          alt="cup"
+          width={1620}
+          height={780}
+          layout="intrinsic"
+          className="w-[180px] h-[274px] md:h-[350px] md:w-[350px] lg:w-[500px] lg:h-[700px] aspect-auto absolute top-[18%] left-[28%] md:left-[32%] lg:top-[22%] lg:left-[32%]"
         />
       </div>
 
-      <div className="w-full justify-center items-center flex my-8">
-        <Image
-          src="/tokenomics.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="object-contain w-[55%] h-[35px] md:h-[63px]"
-        />
+      <div className="w-full justify-center items-center flex my-8 text-[#0059e4] patrick text-3xl md:text-4xl lg:text-6xl">
+        BROG TOKENOMICS
       </div>
 
       <div className="relative w-full justify-center items-center flex mt-2">
-        <Image
-          src="/file3.png"
-          alt="ball"
-          width={80}
-          height={80}
-          className="object-fit w-[150px] absolute -top-[70px] -left-[40px] lg:top-[0px] lg:w-[400px] lg:-left-[55px]"
-        />
-        <Image
-          src="/bg.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="object-fit w-[85%] h-[fit] lg:h-fit"
-        />
-        <Image
-          src="/lookup.png"
-          alt="lookup"
-          width={80}
-          height={80}
-          className="object-fit w-[130px] absolute -bottom-[30px] -right-[0px] lg:w-[400px]"
+        <ResponsiveImage
+          src="/assets art page 3 .png"
+          alt="assets"
+          width={1620}
+          height={780}
+          layout="intrinsic"
+          className="object-fit w-[90%] h-auto mx-auto"
         />
       </div>
-      <div className="w-full justify-center items-center flex my-8 lg:mt-40">
-        <Image
-          src="/howto.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="object-contain w-[55%] h-[35px] md:h-[63px]"
-        />
+      <div className="w-full justify-center items-center flex my-8 text-[#0059e4] patrick text-3xl md:text-3xl lg:text-6xl">
+        HOW TO BUY
       </div>
-      <div className="w-full justify-center items-center flex-row mt-4 grid grid-cols-2 lg:grid-cols-4 mx-auto lg:mt-40">
-        <Image
-          src="/clip1.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="object-contain w-full h-[248px] lg:h-[350px]"
+      <div className="w-full justify-center items-center flex-row mt-12 grid grid-cols-2 lg:grid-cols-4 mx-auto">
+        <ResponsiveImage
+          src="/assets art 1.png"
+          alt="assets"
+          width={1620}
+          height={780}
+          layout="intrinsic"
+          className="object-fit w-[93%] h-auto mx-auto"
         />
-        <Image
-          src="/clip2.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="object-contain w-full h-[248px] lg:h-[350px]"
+        <ResponsiveImage
+          src="/assets art 2.png"
+          alt="assets"
+          width={1620}
+          height={780}
+          layout="intrinsic"
+          className="object-fit w-[100%] h-auto mx-auto"
         />
-        <Image
-          src="/clip3.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="object-contain w-full h-[248px] lg:h-[350px]"
+        <ResponsiveImage
+          src="/assets art 3.png"
+          alt="assets"
+          width={1620}
+          height={780}
+          layout="intrinsic"
+          className="object-fit w-[83%] h-auto mx-auto"
         />
-        <Image
-          src="/clip4.png"
-          alt="path"
-          width={80}
-          height={80}
-          className="object-contain w-full h-[248px] lg:h-[350px]"
+        <ResponsiveImage
+          src="/assets art 4.png"
+          alt="assets"
+          width={1620}
+          height={780}
+          layout="intrinsic"
+          className="object-fit w-[95%] h-auto mx-auto"
         />
       </div>
 
-      <div className="w-full flex justify-center flex-col lg:flex-row lg:justify-around space-y-8 lg:space-x-4 my-4 lg:mt-20">
+      <div className="w-full flex justify-center items-center flex-col lg:flex-row lg:justify-around space-y-8 lg:space-x-4 my-4 lg:mt-20">
         <div>
-          <Image
-            src="/read.png"
+          <ResponsiveImage
+            src="/Karya_Seni_Tanpa_Judul-12.png"
+            alt="read"
+            width={1620}
+            height={780}
+            layout="intrinsic"
+            className="object-fit w-[90%] h-auto mx-auto"
+          />
+          {/* <Image
+
             alt="path"
             width={80}
             height={80}
             className="object-contain w-full h-[228px]  lg:h-[300px]"
-          />
+          /> */}
         </div>
         <div className="flex flex-col items-center space-y-5">
           <Link href="#">
-            <Image
-              src="/brog.png"
-              alt="brog"
-              width={80}
-              height={80}
-              className="object-contain w-[174px] h-[35px]"
-            />
+            <div className="w-full justify-center items-center flex my-8 lg:mt-40 text-[#0059e4] patrick text-3xl md:text-4xl lg:text-6xl">
+              BECOME BROG
+            </div>
           </Link>
           <Link target="_blank" href="https://t.me/brogieonbase">
             <Image
@@ -207,8 +192,8 @@ export default function Home() {
       </div>
 
       <div className="w-full">
-        <Image
-          src="/water.png"
+        <ResponsiveImage
+          src="/art background.png"
           alt="water"
           width={80}
           height={80}
