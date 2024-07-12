@@ -147,7 +147,7 @@ export default function Home() {
       </div>
 
       <div className="w-full flex justify-center items-center flex-col lg:flex-row lg:justify-around space-y-8 lg:space-x-4 my-4 lg:mt-20">
-        <div>
+        <div className="mt-10">
           <ResponsiveImage
             src="/Karya_Seni_Tanpa_Judul-12.png"
             alt="read"
