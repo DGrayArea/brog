@@ -110,7 +110,7 @@ export default function Home() {
         BROG TOKENOMICS
       </div>
 
-      <div className="relative w-full justify-center items-center flex mt-2">
+      <div className="relative w-full justify-center items-center flex mt-2 patrick">
         <ResponsiveImage
           src="/assets art page 3 .png"
           alt="assets"
@@ -119,6 +119,14 @@ export default function Home() {
           layout="intrinsic"
           className="object-fit w-[90%] h-auto mx-auto"
         />
+        <div className="absolute text-xl md:text-4xl lg:text-5xl xl:text-6xl whitespace-nowrap ">
+          <div className="whitespace-nowrap mt-0 md:pt-5"> TEAM 20%</div>{" "}
+          <div className="whitespace-nowrap mt-0 md:py-5">UNI V2 POOL 22%</div>{" "}
+          <div className="whitespace-nowrap mt-0 md:py-5">BURNED 11%</div>{" "}
+          <div className="whitespace-nowrap mt-0 md:py-5">
+            UGANDAS GET THE REST
+          </div>
+        </div>
       </div>
       <div className="w-full justify-center items-center flex my-8 text-[#0059e4] patrick text-3xl md:text-3xl lg:text-6xl">
         HOW TO BUY
