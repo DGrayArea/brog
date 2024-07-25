@@ -285,7 +285,7 @@ export default function Home() {
               className="object-contain w-[80px] lg:w-[137px]"
             />
           </Link>
-          <Link target="_blank" href="https://x.com/brogieonbase?s=21">
+          <Link target="_blank" href="/">
             <Image
               src="/dex2.png"
               alt="x"
