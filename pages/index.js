@@ -123,7 +123,10 @@ export default function Home() {
           <div className="whitespace-nowrap mt-0 md:pt-5"> TEAM 20%</div>{" "}
           <div className="whitespace-nowrap mt-0 md:py-5">UNI V2 POOL 22%</div>{" "}
           <div className="whitespace-nowrap mt-0 md:py-5">BURNED 11%</div>{" "}
-          <div className="whitespace-nowrap mt-0 md:py-5"></div>
+          <div className="whitespace-nowrap mt-0 md:py-5">
+            Remaining supply will be used for marketing and engagement
+            activities
+          </div>
         </div>
       </div>
       <div className="w-full justify-center items-center flex my-8 text-[#0059e4] patrick text-3xl md:text-3xl lg:text-6xl">
